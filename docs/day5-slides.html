@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.26">
+
+  <title>DS 115 | Building Your BYU Experience – day5-slides</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-0fde88a82f0356838740f155f1088782.css">
+  <link rel="stylesheet" href="slides.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="review-from-last-week" class="slide level2 review-slide">
+<h2>Review from last week</h2>
+<p class="prompt">
+What did your Day 4 graduation plan help you see?
+</p>
+<p>Think about <strong>one course or sequence</strong> you want to investigate.</p>
+<p>Then ask a partner: What would you still want to know about the experience of studying data science at BYU?</p>
+<aside class="notes">
+<p>Start here. Give students one minute to recall Day 4’s comparison of majors, prerequisites and first graduation-plan draft. Allow another minute to talk. Invite answers about people, research, experiences, questions, workload and life on campus. The plan contains the courses but cannot tell the whole story. About 3 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-plan-shows-part-of-your-education" class="slide level2">
+<h2>The plan shows part of your education</h2>
+<p><strong>Your courses</strong> build important foundations in computing, statistics, mathematics, and applications.</p>
+<p class="big">
+What can you learn <strong>alongside</strong> those courses?
+</p>
+<aside class="notes">
+<p>Continue directly from the review. Day 4 covered catalog requirements, MyMAP, the MAP sheet and advising, so do not repeat the catalog walkthrough. Show this as an expansion of what a BYU education can include, not a criticism of required coursework. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="day-5-building-your-byu-experience" class="slide level2 section-slide" data-background-color="#002E5D">
+<h2>Day 5: Building Your BYU Experience</h2>
+<p>What can you gain from opportunities beyond your required courses?</p>
+<aside class="notes">
+<p>This is the title slide, placed after the review as requested. The throughline: college offers access to people and opportunities while you focus on developing yourself. You cannot do everything. You can learn to notice, ask, try and reflect. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="you-have-room-to-explore" class="slide level2">
+<h2>You have room to explore</h2>
+<p>College gives you a period focused on learning, with access to people who study and work on questions you may never have encountered.</p>
+<p class="prompt">
+Some opportunities will change how you think about your direction.
+</p>
+<p>You have other demands on your time. Finding <strong>a few</strong> worthwhile experiences matters more than doing everything.</p>
+<aside class="notes">
+<p>Do not imply that all students have abundant free time. Many work, have family responsibilities or commute. The useful distinction is having nearby opportunities and people during a season devoted in part to learning. Keep the tone invitational, not a productivity lecture. About 2 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="even-within-data-science-there-is-a-lot-to-discover" class="slide level2">
+<h2>Even within Data Science, there is a lot to discover</h2>
+<div class="two-col">
+<div>
+<p class="anchor">
+Methods
+</p>
+<p>
+Statistics, machine learning, computing, mathematical models, visualization
+</p>
+</div>
+<div>
+<p class="anchor">
+Questions and settings
+</p>
+<p>
+Health, sports, science, public policy, business, the arts, and more
+</p>
+</div>
+</div>
+<p class="subtle">
+Being sure of your major does not mean you already know which parts of the field you will enjoy.
+</p>
+<aside class="notes">
+<p>Address the student who has already chosen Data Science. Exploration can happen within a single degree. Avoid asking students to rank their strengths before they have experienced these areas. Ask for one question they are curious about, even if it is tentative. About 2 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-a-course-may-not-show-you" class="slide level2">
+<h2>What a course may not show you</h2>
+<p>An event or experience can introduce you to:</p>
+<ul>
+<li>a question you had not considered</li>
+<li>people working on that question</li>
+<li>a way of doing the work that you might enjoy or want to change</li>
+</ul>
+<aside class="notes">
+<p>Give a concrete example: a student goes to a research talk about a field they do not know and leaves with a question for the speaker, even though much of the technical content goes over their head. Attending once can be worthwhile. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ways-to-begin" class="slide level2">
+<h2>Ways to begin</h2>
+<div class="two-col">
+<div>
+<p class="anchor">
+An hour or an afternoon
+</p>
+<p>
+Forum, research talk, guest speaker, club meeting, student poster session
+</p>
+</div>
+<div>
+<p class="anchor">
+A longer commitment
+</p>
+<p>
+Club project, research group, internship, student leadership
+</p>
+</div>
+</div>
+<p>Start with a visit or a conversation. You can decide later whether to do more.</p>
+<aside class="notes">
+<p>Explain that a first visit is a useful experiment. A student can attend a club meeting or hear a talk without committing to an ongoing project. Experiences differ in cost of time and in what they reveal. About 2 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="people-you-can-talk-with" class="slide level2">
+<h2>People you can talk with</h2>
+<ul>
+<li>A TA about how they approached a course, or what helped when they got stuck</li>
+<li>An advisor about courses, a possible change in direction, or an experience you want to fit into your plans</li>
+<li>A professor about something from class, their research, or an idea you want to explore</li>
+</ul>
+<p>You can go to office hours simply because you are curious.</p>
+<aside class="notes">
+<p>Day 4 introduced the advisement center. These are examples of things students might discuss, not prescribed scripts or limits on what these people can help with. Connect briefly to the existing advisor and TA lab assignment. Faculty office hours also welcome students with curiosity or incomplete ideas. About 2 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ask-what-it-was-like" class="slide level2">
+<h2>Ask what it was like</h2>
+<p class="prompt">
+An older student may know which events they would attend again, what surprised them about research, or how they found an internship.
+</p>
+<p>Ask people about their experience. Then decide what sounds worth trying for yourself.</p>
+<aside class="notes">
+<p>Being social can be hard. A useful conversation can begin with one sincere question. Do not frame social ease as a prerequisite for belonging or career success. Other people’s experiences can help students spend their limited time well. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-could-a-club-give-you" class="slide level2">
+<h2>What could a club give you?</h2>
+<div class="two-col">
+<div>
+<p class="anchor">
+Ideas and practice
+</p>
+<p>
+Hear what students are making, learn a tool, or work alongside them.
+</p>
+</div>
+<div>
+<p class="anchor">
+People and perspective
+</p>
+<p>
+Ask an older student how they chose courses, projects, research, or internships.
+</p>
+</div>
+</div>
+<p class="subtle">
+You can go to one meeting to see what it is like.
+</p>
+<aside class="notes">
+<p>Introduce these possibilities before telling the club story. If a club representative is present, invite a brief description of what a newcomer could do at the next event. Avoid overpromising that every club offers every benefit. Link to BYU’s official associations page in the reference slides. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="my-experience-in-the-data-science-club" class="slide level2 story-slide">
+<h2>My experience in the Data Science club</h2>
+<p class="prompt">
+How did being involved change what I learned or who I met?
+</p>
+<div class="story">
+<p>
+What I expected. What I actually found. What I would tell a student who is new to a club.
+</p>
+</div>
+<aside class="notes">
+<p>Personal story prompt for Dr.&nbsp;Kerby. Supply your actual undergraduate Data Science club experience orally. Do not invent dates, offices held, projects or outcomes. Include a human detail about the first meeting and a tangible benefit that did not come from coursework. About 3 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="research-starts-with-curiosity" class="slide level2">
+<h2>Research starts with curiosity</h2>
+<p>You might begin by reading a faculty member’s description of their work or attending a talk.</p>
+<p class="prompt">
+“I am interested in this question. How could an undergraduate learn more about the work?”
+</p>
+<p>You can ask what preparation would help, even if there is no current opening.</p>
+<aside class="notes">
+<p>Demonstrate finding one faculty description on the BYU Data Science faculty page if useful. A good inquiry names a specific interest and asks how to learn more. Do not promise a position or urge students to send generic messages to every professor. Research can involve many subjects and departments. About 2 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="my-search-for-research-work" class="slide level2 story-slide">
+<h2>My search for research work</h2>
+<p class="prompt">
+How did I look for a research assistant position?
+</p>
+<div class="story">
+<p>
+Where I looked. Whom I approached. What I learned from the search itself.
+</p>
+</div>
+<aside class="notes">
+<p>Personal story prompt. Tell the actual RA search, including uncertainty or a request that went nowhere if relevant. Students benefit from hearing the steps, not only the eventual outcome. Research positions and qualifications vary across groups. About 3 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="informational-interviews-a-reminder" class="slide level2">
+<h2>Informational interviews: a reminder</h2>
+<p>Ask someone about their work and what they have learned.</p>
+<p class="prompt">
+“What skill matters in your work that job descriptions often leave out? How could a student develop it?”
+</p>
+<p>If advice is useful, try it. Tell the person what happened afterward.</p>
+<aside class="notes">
+<p>Recall Day 3: the purpose is learning about a person and their work, not asking for a job. Students can follow up with an update when they act on good advice, which can begin an informal mentoring relationship. One thoughtful question is enough to get started. About 2 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="an-informational-interview-changed-my-direction" class="slide level2 story-slide">
+<h2>An informational interview changed my direction</h2>
+<p>After returning from my mission, I had an informational interview at <strong>Myriad Genetics</strong>.</p>
+<p>That conversation helped me decide to study <strong>statistics</strong>.</p>
+<p class="prompt">
+What did I learn that I might not have learned from a degree description?
+</p>
+<aside class="notes">
+<p>Tell your own story here. The stated facts come from Dr.&nbsp;Kerby: an informational interview at Myriad Genetics after his mission influenced his decision to study statistics. Fill in what was actually said and how it changed your thinking. Do not invent the professional’s role or their advice. This reinforces Day 3’s informational interview assignment. About 2 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-second-conversation-can-change-your-plans" class="slide level2 story-slide">
+<h2>A second conversation can change your plans</h2>
+<p>I felt prompted to attend a <strong>BYU graduate fair</strong>.</p>
+<p>That experience helped steer me toward <strong>Data Science</strong>, rather than statistical genetics.</p>
+<aside class="notes">
+<p>Tell your graduate-fair story as you experienced it, including your account of feeling the Spirit prompt you to go. Students may understand the experience in different ways. Keep the focus on being willing to attend and talk with people, even when your direction seems settled. Do not supply additional career chronology or details that Dr.&nbsp;Kerby has not provided. About 2 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-first-question-can-be-small" class="slide level2">
+<h2>A first question can be small</h2>
+<div class="two-col">
+<div>
+<p class="anchor">
+To an older student
+</p>
+<p>
+“What was worth attending when you first got here?”
+</p>
+<p>
+“What would you try again?”
+</p>
+</div>
+<div>
+<p class="anchor">
+To a faculty member
+</p>
+<p>
+“What led you to this research question?”
+</p>
+<p>
+“How could I learn more?”
+</p>
+</div>
+</div>
+<aside class="notes">
+<p>Normalize that starting a conversation can feel awkward. Faculty office hours and club gatherings provide built-in reasons to talk. Invite students to adapt these prompts rather than recite them. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="internships-where-to-start-looking" class="slide level2">
+<h2>Internships: where to start looking</h2>
+<ul>
+<li>Read what employers actually ask people to do.</li>
+<li>Watch <a href="https://datascience.byu.edu/career-opportunities">BYU Handshake and career opportunities</a> and the <a href="https://datascience.byu.edu/newsletter">AI &amp; Data Science newsletter</a>.</li>
+<li>Ask older students and faculty how they found work they enjoyed.</li>
+<li>Build evidence of useful work through courses, projects, or research.</li>
+</ul>
+<aside class="notes">
+<p>About 3 minutes. Practical guidance, not a claim that everyone needs an internship immediately. Demonstrate how a posting reveals skills to develop, as students practiced on Day 3. Tell students that experience may be called research, an internship, a campus job, or a project; evaluate the work itself. BYU’s career page links to Handshake and BYU Connect. Source: https://datascience.byu.edu/career-opportunities and https://datascience.byu.edu/newsletter.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="which-opportunities-deserve-your-time" class="slide level2">
+<h2>Which opportunities deserve your time?</h2>
+<p>There is more to try than you can fit into a semester.</p>
+<p><strong>Read the description. Ask someone who went. Try one that interests you.</strong></p>
+<p>An older student’s view can help you judge what you might learn from an event. Your own experience can change that judgment.</p>
+<aside class="notes">
+<p>Avoid ranking experiences by prestige. The learning payoff differs by person and moment. Some events are social, some technical, some an introduction to a new question. Free food can get someone through the door, but ask what else the experience might offer. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="five-past-byu-events" class="slide level2 section-slide" data-background-color="#002E5D">
+<h2>Five past BYU events</h2>
+<p>Which one would you have been curious to attend?</p>
+<aside class="notes">
+<p>The five examples occurred in 2025 or 2026 and are past as of October 12, 2026. They are for discussion, not an announcement that students can attend them now. We found an original flyer for the research conference and documented descriptions for the other events. One account of the club case competition comes from a student participant. Give groups time to compare initial reactions. About 30 seconds.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-flyer-and-a-campus-fair" class="slide level2">
+<h2>A flyer and a campus fair</h2>
+<div class="flyer-pair">
+<figure>
+<img src="https://www.chem.byu.edu/media/images/SRC_poster1.original.jpg" alt="Original BYU poster advertising the March 2025 Student Research Conference" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"> <a class="flyer-fallback" href="https://www.chem.byu.edu/news/call-for-student-research/">View the original research conference flyer</a>
+<figcaption>
+<strong>Student Research Conference</strong><br>March 8, 2025. Students presented research across the college.
+</figcaption>
+</figure>
+<div>
+<p class="anchor">
+AI &amp; Data Science Launch Event and Fair
+</p>
+<p>
+Club representatives, professors, advisors, demos, games, and food.
+</p>
+<p class="example-date">
+September 25, 2025
+</p>
+<p class="prompt">
+What might you do there besides eat?
+</p>
+</div>
+</div>
+<p class="source">
+Past events: <a href="https://www.chem.byu.edu/news/call-for-student-research/">BYU Chemistry flyer</a> and <a href="https://datascience.byu.edu/past-events">BYU Data Science fair listing</a>.
+</p>
+<aside class="notes">
+<p>Show the actual public flyer if BYU’s image host allows it to load; an official source link remains available if it does not. The research conference flyer describes the March 2025 conference. The 2025 fair is documented on BYU Data Science’s past events page and explicitly included club representatives and free food. Ask who might enjoy either and what someone could ask when they get there. About 1 minute. Sources: https://www.chem.byu.edu/news/call-for-student-research/ and https://datascience.byu.edu/past-events.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-workshop-and-a-forum" class="slide level2">
+<h2>A workshop and a forum</h2>
+<div class="two-col">
+<div>
+<p class="anchor">
+Family History Technology Workshop
+</p>
+<p>
+Talks on handwriting recognition, data modeling, machine learning, and other technology.
+</p>
+<p class="example-date">
+March 2, 2026
+</p>
+</div>
+<div>
+<p class="anchor">
+Francis S. Collins BYU forum
+</p>
+<p>
+“The Road To Wisdom: On Truth, Science, Faith and Trust.”
+</p>
+<p class="example-date">
+January 27, 2026
+</p>
+</div>
+</div>
+<p class="source">
+Past events: <a href="https://fhtw.byu.edu/">workshop</a> and <a href="https://speeches.byu.edu/talks/?event_type=forum">BYU Speeches forum archive</a>.
+</p>
+<aside class="notes">
+<p>Historical examples. The forum broadens exploration beyond a direct technical or career payoff. The workshop demonstrates how data science appears in another domain. Do not imply that a first-year student could necessarily register for every past event: this is an evaluation exercise about interest and value, not a current opportunity listing. Sources: https://fhtw.byu.edu/ and https://speeches.byu.edu/talks/?event_type=forum. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-statistics-club-event" class="slide level2">
+<h2>A Statistics Club event</h2>
+<p><strong>BYU Statistics Club case competition</strong></p>
+<p>In 2026, students worked on a data problem and shared what they found. One participant presented maps of New York City rat complaints.</p>
+<p class="prompt">
+Would you rather attend an event like this, join a team, or talk with someone who took part?
+</p>
+<p class="source">
+<a href="https://www.linkedin.com/posts/tyson-blount-a2416a299_it-was-a-pleasure-presenting-my-rat-maps-activity-7445475929558093824-67DM">Student participant’s account</a> · <a href="https://datascience.byu.edu/student-associations">BYU Statistics Club</a>
+</p>
+<aside class="notes">
+<p>We could not verify a flyer for an ASA kickoff. This is a real club activity in 2026 documented in a participant’s account. BYU lists the Statistics Club as its ASA student chapter. Do not imply that this event is currently open for registration or that this one student’s experience represents everyone. The different levels of engagement, from watching to joining a team, make it useful for discussion. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="your-first-impression" class="slide level2 review-slide">
+<h2>Your first impression</h2>
+<p>Choose <strong>one</strong> of the five events you would have considered attending.</p>
+<p class="prompt">
+What caught your interest? What might you hope to learn or experience there?
+</p>
+<p>Write your answer privately, then compare with a partner.</p>
+<aside class="notes">
+<p>Think for 40 seconds, talk for a minute. Invite students to choose any of the five. Do not ask them to justify why they would skip the others. A student may value the forum for understanding relationships between science and faith even if it will not help with a resume. About 2 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="what-an-event-listing-cannot-tell-you" class="slide level2">
+<h2>What an event listing cannot tell you</h2>
+<p class="prompt">
+What would you ask a student who has attended something like it?
+</p>
+<p>Possible questions:</p>
+<ul>
+<li>What did people actually do there?</li>
+<li>Could someone new to the subject follow along?</li>
+<li>What did you get out of going?</li>
+</ul>
+<aside class="notes">
+<p>Collect one question per pair and take a few aloud. Speaking with older students can reveal what it was like to attend or participate. The slides do not invent reviews of these events. About 2 minutes.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="discuss-the-tradeoffs" class="slide level2">
+<h2>Discuss the tradeoffs</h2>
+<p>In small groups, compare two events.</p>
+<p class="prompt">
+What might you gain from each? What could make either less worthwhile for you right now?
+</p>
+<p>Would an older student’s experience change your initial choice?</p>
+<aside class="notes">
+<p>About 3 minutes. Keep discussion grounded in the descriptions, not fabricated reports about event quality. Possible tradeoffs: a campus fair offers breadth and people but can feel crowded; a research conference exposes specific questions but technical detail may be hard to follow; a workshop connects data to a domain but may require more background; a club competition offers practice but takes more time; a forum may broaden perspective without an immediate technical payoff. These are possibilities, not verified reviews. Invite multiple views.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="time-spent-can-have-several-kinds-of-value" class="slide level2">
+<h2>Time spent can have several kinds of value</h2>
+<p><strong>You learn something.</strong> A new question stays with you.</p>
+<p><strong>You meet someone.</strong> A conversation opens another door.</p>
+<p><strong>You discover a preference.</strong> You learn what you want more of, or less of.</p>
+<aside class="notes">
+<p>Debrief the event activity. Disliking a session can still clarify a preference, provided students approach the event with curiosity. These are possible benefits, not guaranteed outcomes of attendance. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="where-to-find-the-next-one" class="slide level2">
+<h2>Where to find the next one</h2>
+<div class="resource-list">
+<p>
+<a href="https://datascience.byu.edu/newsletter">AI &amp; Data Science newsletter</a> for events, jobs, and internships
+</p>
+<p>
+<a href="https://datascience.byu.edu/student-associations">Student associations</a> for meetings and projects
+</p>
+<p>
+<a href="https://datascience.byu.edu/ai-data-science-faculty">Faculty directory</a> for research questions and people
+</p>
+<p>
+<a href="https://science.byu.edu/advisement">College advisement</a> for help with your plan
+</p>
+</div>
+<aside class="notes">
+<p>Show these as live links or direct students to the home page. The newsletter aggregates BYU events and opportunities, while specific clubs and faculty pages may change. Encourage students to check current listings before attending. About 2 minutes. Sources: each linked official BYU page.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="your-next-conversation" class="slide level2">
+<h2>Your next conversation</h2>
+<p>Name <strong>one person or group</strong> you could ask about an opportunity that interests you.</p>
+<p class="prompt">
+What would you want to know from them?
+</p>
+<p>An advisor, professor, TA, club member, older student, or professional could each help answer a different question.</p>
+<aside class="notes">
+<p>This is a reflection, not an additional graded networking requirement. Link it to the advisor and TA lab assignment and Day 3’s professional exploration. Give 30 seconds to write and take one or two volunteers. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="you-cannot-do-it-all" class="slide level2">
+<h2>You cannot do it all</h2>
+<p class="big">
+You can choose a few things to try while you have access to them.
+</p>
+<p>The next event or conversation does not have to settle your future. It can help you decide what to explore next.</p>
+<aside class="notes">
+<p>Keep the invitation proportionate to students’ constraints. This closes the lecture’s main argument and makes the next slide an easy attendance exit ticket. About 1 minute.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="exit-ticket" class="slide level2">
+<h2>Exit ticket</h2>
+<ol type="1">
+<li>What is one kind of opportunity at BYU you had overlooked?</li>
+<li>Why might it be worthwhile for you?</li>
+<li>What is one question you could ask someone who knows more about it?</li>
+</ol>
+<aside class="notes">
+<p>Use these questions for the daily attendance quiz if appropriate. Answers can be tentative and need not disclose private plans. Allow about 2 minutes. End the active lecture here. The next slides are references.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="reference-conversations-and-support" class="slide level2">
+<h2>Reference: conversations and support</h2>
+<ul>
+<li><a href="https://science.byu.edu/advisement">College advisement</a></li>
+<li><a href="https://datascience.byu.edu/student-associations">AI &amp; Data Science student associations</a></li>
+<li><a href="https://datascience.byu.edu/ai-data-science-faculty">AI &amp; Data Science faculty</a></li>
+<li><a href="https://datascience.byu.edu/career-opportunities">BYU career opportunities</a></li>
+<li><a href="https://datascience.byu.edu/newsletter">AI &amp; Data Science newsletter</a></li>
+</ul>
+<aside class="notes">
+<p>Reference slide. Check live links before class. Day 4 already explained the graduation plan and advisor role; this slide gathers starting points for students after class.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="reference-the-five-past-events" class="slide level2">
+<h2>Reference: the five past events</h2>
+<ul>
+<li><a href="https://www.chem.byu.edu/news/call-for-student-research/">Student Research Conference flyer, March 2025</a></li>
+<li><a href="https://datascience.byu.edu/past-events">AI &amp; Data Science Launch Event and Fair, September 2025</a></li>
+<li><a href="https://fhtw.byu.edu/">Family History Technology Workshop, March 2026</a></li>
+<li><a href="https://speeches.byu.edu/talks/?event_type=forum">Francis S. Collins forum, January 2026</a></li>
+<li><a href="https://www.linkedin.com/posts/tyson-blount-a2416a299_it-was-a-pleasure-presenting-my-rat-maps-activity-7445475929558093824-67DM">Statistics Club case competition, 2026</a></li>
+</ul>
+<p class="subtle">
+These are examples from the past, not upcoming events.
+</p>
+<aside class="notes">
+<p>Use if students want to explore the archived programs or recordings. For future attendance, rely on current official event listings.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1280,
+
+        height: 720,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

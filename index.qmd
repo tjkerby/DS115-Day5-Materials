@@ -1,0 +1,20 @@
+---
+title: "Day 5: Building Your BYU Experience"
+subtitle: "DS 115: Exploring Data Science"
+---
+
+## What can you learn beyond your required courses?
+
+Your degree plan helps you prepare for graduation. During your time at BYU, you can also hear new ideas, meet people who are doing work that interests you, and try things that help you find your direction. You do not have to pursue every opportunity. This lecture offers ways to find and evaluate a few that matter to you.
+
+[Open the lecture slides](day5-slides.qmd){.btn .btn-primary}
+
+### Explore further
+
+- [AI & Data Science student associations](https://datascience.byu.edu/student-associations)
+- [AI & Data Science newsletter](https://datascience.byu.edu/newsletter)
+- [BYU Data Science faculty](https://datascience.byu.edu/ai-data-science-faculty)
+- [BYU career opportunities](https://datascience.byu.edu/career-opportunities)
+- [College advisement](https://science.byu.edu/advisement)
+
+The events in the slides are **past BYU events**, chosen for classroom discussion. Check current listings before planning to attend an event.

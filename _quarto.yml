@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "DS 115 | Building Your BYU Experience"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: day5-slides.qmd
+        text: Lecture slides
+
+format:
+  html:
+    theme: cosmo
+    css: site.css
+    toc: false
+
+execute:
+  freeze: auto

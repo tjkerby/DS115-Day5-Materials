@@ -1,0 +1,32 @@
+:root { --navy: #002e5d; --blue: #0057a7; --cream: #f4eedc; --gold: #b89a54; --ink: #162e45; }
+.reveal { font-family: "Arial", "Helvetica Neue", sans-serif; color: var(--ink); }
+.reveal .slides section { text-align: left; box-sizing: border-box; }
+.reveal .slides section h2 { color: var(--navy); font-size: 1.48em; line-height: 1.13; border-left: 0.16em solid var(--gold); padding-left: 0.3em; margin-bottom: 0.45em; }
+.reveal .slides section p, .reveal .slides section li { font-size: 0.79em; line-height: 1.32; }
+.reveal .slides section li { margin-bottom: 0.27em; }
+.reveal .slides section strong { color: var(--navy); }
+.reveal .slides section a { color: var(--blue); }
+.reveal .slides section .prompt { font-size: 1.08em; line-height: 1.25; color: var(--navy); max-width: 94%; }
+.reveal .slides section .subtle { font-size: 0.67em; color: #405568; }
+.reveal .slides section .source { font-size: 0.49em; color: #405568; margin-top: 0.9em; }
+.reveal .slides section .example-date { font-size: 0.58em; color: #485b69; }
+.reveal .slides section .big { font-size: 1.16em; line-height: 1.22; max-width: 90%; }
+.reveal .slides section .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.05em; align-items: start; }
+.reveal .slides section .two-col p { margin-top: 0; }
+.reveal .slides section .anchor { color: var(--navy); font-weight: 700; font-size: 0.69em; margin-bottom: 0.15em; }
+.reveal .slides section .story { border-top: 3px solid var(--gold); padding-top: 0.34em; margin-top: 0.62em; }
+.reveal .slides section.story-slide { background: #fbfaf7; }
+.reveal .slides section.section-slide { color: #fff; }
+.reveal .slides section.section-slide h2 { color: #fff; border: 0; padding-left: 0; font-size: 1.75em; }
+.reveal .slides section.section-slide p, .reveal .slides section.section-slide strong { color: #f4eedc; }
+.reveal .slides section.review-slide { background: #f4eedc; }
+.reveal .slides section.review-slide h2 { border-color: var(--navy); }
+.reveal .slides section .resource-list p { margin-bottom: 0.22em; }
+.reveal .slides section .flyer-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; align-items: start; }
+.reveal .slides section .flyer-pair figure { margin: 0; }
+.reveal .slides section .flyer-pair img { width: 100%; max-height: 385px; object-fit: contain; margin: 0; border: 1px solid #c5d1dc; background: #fff; }
+.reveal .slides section .flyer-pair figcaption { font-size: 0.56em; line-height: 1.22; margin-top: .3em; }
+.reveal .slides section .flyer-pair .flyer-fallback { display: none; border: 1px solid #c5d1dc; padding: 2em .4em; font-size: .8em; }
+.reveal .slides section aside.notes { display: none; }
+.reveal .progress { color: var(--gold); }
+@media (max-width: 700px) { .reveal .slides section .two-col, .reveal .slides section .flyer-pair { display: block; } }

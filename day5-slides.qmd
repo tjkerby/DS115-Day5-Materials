@@ -1,0 +1,441 @@
+---
+format:
+  revealjs:
+    theme: simple
+    css: slides.css
+    transition: fade
+    slide-number: c/t
+    navigation-mode: linear
+    controls: true
+    progress: true
+    center: false
+    width: 1280
+    height: 720
+---
+
+## Review from last week {.review-slide}
+
+<p class="prompt">What did your Day 4 graduation plan help you see?</p>
+
+Think about **one course or sequence** you want to investigate.
+
+Then ask a partner: What would you still want to know about the experience of studying data science at BYU?
+
+::: {.notes}
+Start here. Give students one minute to recall Day 4's comparison of majors, prerequisites and first graduation-plan draft. Allow another minute to talk. Invite answers about people, research, experiences, questions, workload and life on campus. The plan contains the courses but cannot tell the whole story. About 3 minutes.
+:::
+
+## The plan shows part of your education
+
+**Your courses** build important foundations in computing, statistics, mathematics, and applications.
+
+<p class="big">What can you learn <strong>alongside</strong> those courses?</p>
+
+::: {.notes}
+Continue directly from the review. Day 4 covered catalog requirements, MyMAP, the MAP sheet and advising, so do not repeat the catalog walkthrough. Show this as an expansion of what a BYU education can include, not a criticism of required coursework. About 1 minute.
+:::
+
+## Day 5: Building Your BYU Experience {.section-slide background-color="#002E5D"}
+
+What can you gain from opportunities beyond your required courses?
+
+::: {.notes}
+This is the title slide, placed after the review as requested. The throughline: college offers access to people and opportunities while you focus on developing yourself. You cannot do everything. You can learn to notice, ask, try and reflect. About 1 minute.
+:::
+
+## You have room to explore
+
+College gives you a period focused on learning, with access to people who study and work on questions you may never have encountered.
+
+<p class="prompt">Some opportunities will change how you think about your direction.</p>
+
+You have other demands on your time. Finding **a few** worthwhile experiences matters more than doing everything.
+
+::: {.notes}
+Do not imply that all students have abundant free time. Many work, have family responsibilities or commute. The useful distinction is having nearby opportunities and people during a season devoted in part to learning. Keep the tone invitational, not a productivity lecture. About 2 minutes.
+:::
+
+## Even within Data Science, there is a lot to discover
+
+<div class="two-col">
+<div>
+<p class="anchor">Methods</p>
+<p>Statistics, machine learning, computing, mathematical models, visualization</p>
+</div>
+<div>
+<p class="anchor">Questions and settings</p>
+<p>Health, sports, science, public policy, business, the arts, and more</p>
+</div>
+</div>
+
+<p class="subtle">Being sure of your major does not mean you already know which parts of the field you will enjoy.</p>
+
+::: {.notes}
+Address the student who has already chosen Data Science. Exploration can happen within a single degree. Avoid asking students to rank their strengths before they have experienced these areas. Ask for one question they are curious about, even if it is tentative. About 2 minutes.
+:::
+
+## What a course may not show you
+
+An event or experience can introduce you to:
+
+- a question you had not considered
+- people working on that question
+- a way of doing the work that you might enjoy or want to change
+
+::: {.notes}
+Give a concrete example: a student goes to a research talk about a field they do not know and leaves with a question for the speaker, even though much of the technical content goes over their head. Attending once can be worthwhile. About 1 minute.
+:::
+
+## Ways to begin
+
+<div class="two-col">
+<div>
+<p class="anchor">An hour or an afternoon</p>
+<p>Forum, research talk, guest speaker, club meeting, student poster session</p>
+</div>
+<div>
+<p class="anchor">A longer commitment</p>
+<p>Club project, research group, internship, student leadership</p>
+</div>
+</div>
+
+Start with a visit or a conversation. You can decide later whether to do more.
+
+::: {.notes}
+Explain that a first visit is a useful experiment. A student can attend a club meeting or hear a talk without committing to an ongoing project. Experiences differ in cost of time and in what they reveal. About 2 minutes.
+:::
+
+## People you can talk with
+
+- A TA about how they approached a course, or what helped when they got stuck
+- An advisor about courses, a possible change in direction, or an experience you want to fit into your plans
+- A professor about something from class, their research, or an idea you want to explore
+
+You can go to office hours simply because you are curious.
+
+::: {.notes}
+Day 4 introduced the advisement center. These are examples of things students might discuss, not prescribed scripts or limits on what these people can help with. Connect briefly to the existing advisor and TA lab assignment. Faculty office hours also welcome students with curiosity or incomplete ideas. About 2 minutes.
+:::
+
+## Ask what it was like
+
+<p class="prompt">An older student may know which events they would attend again, what surprised them about research, or how they found an internship.</p>
+
+Ask people about their experience. Then decide what sounds worth trying for yourself.
+
+::: {.notes}
+Being social can be hard. A useful conversation can begin with one sincere question. Do not frame social ease as a prerequisite for belonging or career success. Other people's experiences can help students spend their limited time well. About 1 minute.
+:::
+
+## What could a club give you?
+
+<div class="two-col">
+<div>
+<p class="anchor">Ideas and practice</p>
+<p>Hear what students are making, learn a tool, or work alongside them.</p>
+</div>
+<div>
+<p class="anchor">People and perspective</p>
+<p>Ask an older student how they chose courses, projects, research, or internships.</p>
+</div>
+</div>
+
+<p class="subtle">You can go to one meeting to see what it is like.</p>
+
+::: {.notes}
+Introduce these possibilities before telling the club story. If a club representative is present, invite a brief description of what a newcomer could do at the next event. Avoid overpromising that every club offers every benefit. Link to BYU's official associations page in the reference slides. About 1 minute.
+:::
+
+## My experience in the Data Science club {.story-slide}
+
+<p class="prompt">How did being involved change what I learned or who I met?</p>
+
+<div class="story"><p>What I expected. What I actually found. What I would tell a student who is new to a club.</p></div>
+
+::: {.notes}
+Personal story prompt for Dr. Kerby. Supply your actual undergraduate Data Science club experience orally. Do not invent dates, offices held, projects or outcomes. Include a human detail about the first meeting and a tangible benefit that did not come from coursework. About 3 minutes.
+:::
+
+## Research starts with curiosity
+
+You might begin by reading a faculty member's description of their work or attending a talk.
+
+<p class="prompt">“I am interested in this question. How could an undergraduate learn more about the work?”</p>
+
+You can ask what preparation would help, even if there is no current opening.
+
+::: {.notes}
+Demonstrate finding one faculty description on the BYU Data Science faculty page if useful. A good inquiry names a specific interest and asks how to learn more. Do not promise a position or urge students to send generic messages to every professor. Research can involve many subjects and departments. About 2 minutes.
+:::
+
+## My search for research work {.story-slide}
+
+<p class="prompt">How did I look for a research assistant position?</p>
+
+<div class="story"><p>Where I looked. Whom I approached. What I learned from the search itself.</p></div>
+
+::: {.notes}
+Personal story prompt. Tell the actual RA search, including uncertainty or a request that went nowhere if relevant. Students benefit from hearing the steps, not only the eventual outcome. Research positions and qualifications vary across groups. About 3 minutes.
+:::
+
+## Informational interviews: a reminder
+
+Ask someone about their work and what they have learned.
+
+<p class="prompt">“What skill matters in your work that job descriptions often leave out? How could a student develop it?”</p>
+
+If advice is useful, try it. Tell the person what happened afterward.
+
+::: {.notes}
+Recall Day 3: the purpose is learning about a person and their work, not asking for a job. Students can follow up with an update when they act on good advice, which can begin an informal mentoring relationship. One thoughtful question is enough to get started. About 2 minutes.
+:::
+
+## An informational interview changed my direction {.story-slide}
+
+After returning from my mission, I had an informational interview at **Myriad Genetics**.
+
+That conversation helped me decide to study **statistics**.
+
+<p class="prompt">What did I learn that I might not have learned from a degree description?</p>
+
+::: {.notes}
+Tell your own story here. The stated facts come from Dr. Kerby: an informational interview at Myriad Genetics after his mission influenced his decision to study statistics. Fill in what was actually said and how it changed your thinking. Do not invent the professional's role or their advice. This reinforces Day 3's informational interview assignment. About 2 minutes.
+:::
+
+## A second conversation can change your plans {.story-slide}
+
+I felt prompted to attend a **BYU graduate fair**.
+
+That experience helped steer me toward **Data Science**, rather than statistical genetics.
+
+::: {.notes}
+Tell your graduate-fair story as you experienced it, including your account of feeling the Spirit prompt you to go. Students may understand the experience in different ways. Keep the focus on being willing to attend and talk with people, even when your direction seems settled. Do not supply additional career chronology or details that Dr. Kerby has not provided. About 2 minutes.
+:::
+
+## A first question can be small
+
+<div class="two-col">
+<div>
+<p class="anchor">To an older student</p>
+<p>“What was worth attending when you first got here?”</p>
+<p>“What would you try again?”</p>
+</div>
+<div>
+<p class="anchor">To a faculty member</p>
+<p>“What led you to this research question?”</p>
+<p>“How could I learn more?”</p>
+</div>
+</div>
+
+::: {.notes}
+Normalize that starting a conversation can feel awkward. Faculty office hours and club gatherings provide built-in reasons to talk. Invite students to adapt these prompts rather than recite them. About 1 minute.
+:::
+
+## Internships: where to start looking
+
+- Read what employers actually ask people to do.
+- Watch [BYU Handshake and career opportunities](https://datascience.byu.edu/career-opportunities) and the [AI & Data Science newsletter](https://datascience.byu.edu/newsletter).
+- Ask older students and faculty how they found work they enjoyed.
+- Build evidence of useful work through courses, projects, or research.
+
+::: {.notes}
+About 3 minutes. Practical guidance, not a claim that everyone needs an internship immediately. Demonstrate how a posting reveals skills to develop, as students practiced on Day 3. Tell students that experience may be called research, an internship, a campus job, or a project; evaluate the work itself. BYU's career page links to Handshake and BYU Connect. Source: https://datascience.byu.edu/career-opportunities and https://datascience.byu.edu/newsletter.
+:::
+
+## Which opportunities deserve your time?
+
+There is more to try than you can fit into a semester.
+
+**Read the description. Ask someone who went. Try one that interests you.**
+
+An older student's view can help you judge what you might learn from an event. Your own experience can change that judgment.
+
+::: {.notes}
+Avoid ranking experiences by prestige. The learning payoff differs by person and moment. Some events are social, some technical, some an introduction to a new question. Free food can get someone through the door, but ask what else the experience might offer. About 1 minute.
+:::
+
+## Five past BYU events {.section-slide background-color="#002E5D"}
+
+Which one would you have been curious to attend?
+
+::: {.notes}
+The five examples occurred in 2025 or 2026 and are past as of October 12, 2026. They are for discussion, not an announcement that students can attend them now. We found an original flyer for the research conference and documented descriptions for the other events. One account of the club case competition comes from a student participant. Give groups time to compare initial reactions. About 30 seconds.
+:::
+
+## A flyer and a campus fair
+
+<div class="flyer-pair">
+<figure>
+<img src="https://www.chem.byu.edu/media/images/SRC_poster1.original.jpg" alt="Original BYU poster advertising the March 2025 Student Research Conference" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+<a class="flyer-fallback" href="https://www.chem.byu.edu/news/call-for-student-research/">View the original research conference flyer</a>
+<figcaption><strong>Student Research Conference</strong><br>March 8, 2025. Students presented research across the college.</figcaption>
+</figure>
+<div>
+<p class="anchor">AI & Data Science Launch Event and Fair</p>
+<p>Club representatives, professors, advisors, demos, games, and food.</p>
+<p class="example-date">September 25, 2025</p>
+<p class="prompt">What might you do there besides eat?</p>
+</div>
+</div>
+
+<p class="source">Past events: <a href="https://www.chem.byu.edu/news/call-for-student-research/">BYU Chemistry flyer</a> and <a href="https://datascience.byu.edu/past-events">BYU Data Science fair listing</a>.</p>
+
+::: {.notes}
+Show the actual public flyer if BYU's image host allows it to load; an official source link remains available if it does not. The research conference flyer describes the March 2025 conference. The 2025 fair is documented on BYU Data Science's past events page and explicitly included club representatives and free food. Ask who might enjoy either and what someone could ask when they get there. About 1 minute. Sources: https://www.chem.byu.edu/news/call-for-student-research/ and https://datascience.byu.edu/past-events.
+:::
+
+## A workshop and a forum
+
+<div class="two-col">
+<div>
+<p class="anchor">Family History Technology Workshop</p>
+<p>Talks on handwriting recognition, data modeling, machine learning, and other technology.</p>
+<p class="example-date">March 2, 2026</p>
+</div>
+<div>
+<p class="anchor">Francis S. Collins BYU forum</p>
+<p>“The Road To Wisdom: On Truth, Science, Faith and Trust.”</p>
+<p class="example-date">January 27, 2026</p>
+</div>
+</div>
+
+<p class="source">Past events: <a href="https://fhtw.byu.edu/">workshop</a> and <a href="https://speeches.byu.edu/talks/?event_type=forum">BYU Speeches forum archive</a>.</p>
+
+::: {.notes}
+Historical examples. The forum broadens exploration beyond a direct technical or career payoff. The workshop demonstrates how data science appears in another domain. Do not imply that a first-year student could necessarily register for every past event: this is an evaluation exercise about interest and value, not a current opportunity listing. Sources: https://fhtw.byu.edu/ and https://speeches.byu.edu/talks/?event_type=forum. About 1 minute.
+:::
+
+## A Statistics Club event
+
+**BYU Statistics Club case competition**
+
+In 2026, students worked on a data problem and shared what they found. One participant presented maps of New York City rat complaints.
+
+<p class="prompt">Would you rather attend an event like this, join a team, or talk with someone who took part?</p>
+
+<p class="source"><a href="https://www.linkedin.com/posts/tyson-blount-a2416a299_it-was-a-pleasure-presenting-my-rat-maps-activity-7445475929558093824-67DM">Student participant's account</a> · <a href="https://datascience.byu.edu/student-associations">BYU Statistics Club</a></p>
+
+::: {.notes}
+We could not verify a flyer for an ASA kickoff. This is a real club activity in 2026 documented in a participant's account. BYU lists the Statistics Club as its ASA student chapter. Do not imply that this event is currently open for registration or that this one student's experience represents everyone. The different levels of engagement, from watching to joining a team, make it useful for discussion. About 1 minute.
+:::
+
+## Your first impression { .review-slide }
+
+Choose **one** of the five events you would have considered attending.
+
+<p class="prompt">What caught your interest? What might you hope to learn or experience there?</p>
+
+Write your answer privately, then compare with a partner.
+
+::: {.notes}
+Think for 40 seconds, talk for a minute. Invite students to choose any of the five. Do not ask them to justify why they would skip the others. A student may value the forum for understanding relationships between science and faith even if it will not help with a resume. About 2 minutes.
+:::
+
+## What an event listing cannot tell you
+
+<p class="prompt">What would you ask a student who has attended something like it?</p>
+
+Possible questions:
+
+- What did people actually do there?
+- Could someone new to the subject follow along?
+- What did you get out of going?
+
+::: {.notes}
+Collect one question per pair and take a few aloud. Speaking with older students can reveal what it was like to attend or participate. The slides do not invent reviews of these events. About 2 minutes.
+:::
+
+## Discuss the tradeoffs
+
+In small groups, compare two events.
+
+<p class="prompt">What might you gain from each? What could make either less worthwhile for you right now?</p>
+
+Would an older student's experience change your initial choice?
+
+::: {.notes}
+About 3 minutes. Keep discussion grounded in the descriptions, not fabricated reports about event quality. Possible tradeoffs: a campus fair offers breadth and people but can feel crowded; a research conference exposes specific questions but technical detail may be hard to follow; a workshop connects data to a domain but may require more background; a club competition offers practice but takes more time; a forum may broaden perspective without an immediate technical payoff. These are possibilities, not verified reviews. Invite multiple views.
+:::
+
+## Time spent can have several kinds of value
+
+**You learn something.** A new question stays with you.
+
+**You meet someone.** A conversation opens another door.
+
+**You discover a preference.** You learn what you want more of, or less of.
+
+::: {.notes}
+Debrief the event activity. Disliking a session can still clarify a preference, provided students approach the event with curiosity. These are possible benefits, not guaranteed outcomes of attendance. About 1 minute.
+:::
+
+## Where to find the next one
+
+<div class="resource-list">
+<p><a href="https://datascience.byu.edu/newsletter">AI & Data Science newsletter</a> for events, jobs, and internships</p>
+<p><a href="https://datascience.byu.edu/student-associations">Student associations</a> for meetings and projects</p>
+<p><a href="https://datascience.byu.edu/ai-data-science-faculty">Faculty directory</a> for research questions and people</p>
+<p><a href="https://science.byu.edu/advisement">College advisement</a> for help with your plan</p>
+</div>
+
+::: {.notes}
+Show these as live links or direct students to the home page. The newsletter aggregates BYU events and opportunities, while specific clubs and faculty pages may change. Encourage students to check current listings before attending. About 2 minutes. Sources: each linked official BYU page.
+:::
+
+## Your next conversation
+
+Name **one person or group** you could ask about an opportunity that interests you.
+
+<p class="prompt">What would you want to know from them?</p>
+
+An advisor, professor, TA, club member, older student, or professional could each help answer a different question.
+
+::: {.notes}
+This is a reflection, not an additional graded networking requirement. Link it to the advisor and TA lab assignment and Day 3's professional exploration. Give 30 seconds to write and take one or two volunteers. About 1 minute.
+:::
+
+## You cannot do it all
+
+<p class="big">You can choose a few things to try while you have access to them.</p>
+
+The next event or conversation does not have to settle your future. It can help you decide what to explore next.
+
+::: {.notes}
+Keep the invitation proportionate to students' constraints. This closes the lecture's main argument and makes the next slide an easy attendance exit ticket. About 1 minute.
+:::
+
+## Exit ticket
+
+1. What is one kind of opportunity at BYU you had overlooked?
+2. Why might it be worthwhile for you?
+3. What is one question you could ask someone who knows more about it?
+
+::: {.notes}
+Use these questions for the daily attendance quiz if appropriate. Answers can be tentative and need not disclose private plans. Allow about 2 minutes. End the active lecture here. The next slides are references.
+:::
+
+## Reference: conversations and support
+
+- [College advisement](https://science.byu.edu/advisement)
+- [AI & Data Science student associations](https://datascience.byu.edu/student-associations)
+- [AI & Data Science faculty](https://datascience.byu.edu/ai-data-science-faculty)
+- [BYU career opportunities](https://datascience.byu.edu/career-opportunities)
+- [AI & Data Science newsletter](https://datascience.byu.edu/newsletter)
+
+::: {.notes}
+Reference slide. Check live links before class. Day 4 already explained the graduation plan and advisor role; this slide gathers starting points for students after class.
+:::
+
+## Reference: the five past events
+
+- [Student Research Conference flyer, March 2025](https://www.chem.byu.edu/news/call-for-student-research/)
+- [AI & Data Science Launch Event and Fair, September 2025](https://datascience.byu.edu/past-events)
+- [Family History Technology Workshop, March 2026](https://fhtw.byu.edu/)
+- [Francis S. Collins forum, January 2026](https://speeches.byu.edu/talks/?event_type=forum)
+- [Statistics Club case competition, 2026](https://www.linkedin.com/posts/tyson-blount-a2416a299_it-was-a-pleasure-presenting-my-rat-maps-activity-7445475929558093824-67DM)
+
+<p class="subtle">These are examples from the past, not upcoming events.</p>
+
+::: {.notes}
+Use if students want to explore the archived programs or recordings. For future attendance, rely on current official event listings.
+:::
